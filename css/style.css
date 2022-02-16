@@ -1,0 +1,12 @@
+.imgOne {
+  width: 600px;
+  height: 800px;
+  border-radius: 10px;
+}
+.btn1 {
+  padding: 1px 40px;
+}
+.allInput {
+  background-color: #f7f7ec67;
+  color: black;
+}
