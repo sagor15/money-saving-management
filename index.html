@@ -17,33 +17,34 @@
     <div class="container py-4 bg-light">
       <div class="row justify-content-around">
         <div class="col-sm-12 col-lg-6">
-          <img class="img-fluid" src="image/img2.jpg" alt="" />
+          <img class="img-fluid" src="image/img5.jpg" alt="" />
         </div>
         <div class="col col-sm-1 col-lg-6 px-5 py-5">
           <div>
-            <h2 class="text-center py-2">Income</h2>
-            <span>income total : </span> <input class="allInput" type="text" />
+            <h2 class="py-2">Income</h2>
+            <span>income total : </span> <input id="Income-Input" class="allInput" type="text" />
 
-            <h2 class="text-center py-2">Cost</h2>
-            <span>income total : </span> <input class="allInput" type="text" /><br /><br />
-            <span>income total : </span> <input class="allInput" type="text" /><br /><br />
-            <span>income total : </span> <input class="allInput" type="text" /><br /><br />
+            <h2 class="py-2">Cost</h2>
+            <span>Food : </span> <input id="Food-Input" class="allInput" type="text" /><br /><br />
+            <span>Rent : </span> <input id="Rent-Input" class="allInput" type="text" /><br /><br />
+            <span>Clothes : </span> <input id="Cloth-Input" class="allInput" type="text" /><br /><br />
           </div>
           <div class="col col-6 mx-auto py-2">
-            <button class="btn btn-success mx-auto" type="button">Calculate Money</button>
+            <button id="Calculate-btn" class="btn btn-success mx-auto" type="button">Calculate Money</button>
           </div>
-          <h3 class="text-center py-2">Total Cost : <span>500</span></h3>
-          <h3 class="text-center py-2">New Balance : <span>100</span></h3>
+          <h3 class="py-2">Total Cost : <span id="Total-cost">0</span></h3>
+          <h3 class="py-2">New Balance : <span id="New-Balance">0</span></h3>
 
           <span
             >save : <input class="allInput" type="text" /><span>%</span>
             <button class="btn1 bg-success text-white border-0 mx-auto">save</button></span
           >
 
-          <h4 class="text-center py-2">Saving Amount : <span>2000</span></h4>
-          <h4 class="text-center py-2">Remaining Balance: <span>1500</span></h4>
+          <h4 class="py-2">Saving Amount : <span>2000</span></h4>
+          <h4 class="py-2">Remaining Balance: <span>1500</span></h4>
         </div>
       </div>
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>
