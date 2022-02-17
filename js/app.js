@@ -16,7 +16,7 @@ document.getElementById('Calculate-btn').addEventListener('click',function(){
         const resultNewBalance = parseFloat(incomeTotalValue)  - resultTotalCost;
         const soreNewBalance = newBalance.innerText = resultNewBalance;
     }else{
-        alert('vul ase thik koro')
+        alert('Please Input A Valid Number');
         // const resultTotalCost = TotalCost.innerText = '' ;
         
     }
@@ -51,9 +51,9 @@ document.getElementById('save').addEventListener('click',function(){
         if(ReamaningAmountResult >= 0){
           remainingBalance.innerText = ReamaningAmountResult;
         }else{
-            alert('vul ase');
+            alert('input is blank please input a number');
         }
     }else{
-        alert('invalid value');
+        alert('invalid value!! Please input a valid number');
     } 
 })
